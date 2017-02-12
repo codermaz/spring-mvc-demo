@@ -4,8 +4,9 @@
 <title> Hello World - Input Form </title>
 </head>
 <body>
-	<form action="processForm" method="GET">
-		<input type="text" name="studentName" placeFolder="What's your name?" />
+	<form action="processForm3" method="GET">
+		<input type="text" name="studentName" placeholder="What's your name?" />
+		<input type="text" name="address" placeholder="What's your address?" />
 		<input type="submit" />
 	</form>
 </body>
